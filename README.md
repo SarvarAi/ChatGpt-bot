@@ -12,18 +12,18 @@ Features:
 
 Architecture:
 
-The project is built using the aiogram library, which is a powerful framework for building Telegram bots in Python.
+- The project is built using the aiogram library, which is a powerful framework for building Telegram bots in Python.
 The aiogram library provides functionalities for handling messages, callback queries, and managing conversation states.
 The bot communicates with the Telegram Bot API to send and receive messages.
 The project follows a modular structure with separate files for bot configuration (loader.py), button layouts (buttons.py), AI functionality (ai.py), and the main script (main.py) that ties everything together.
 Deployment:
 
-The project requires a Telegram Bot API token, which should be provided as an environment variable.
+- The project requires a Telegram Bot API token, which should be provided as an environment variable.
 The project uses the GPT-3.5 Turbo model from OpenAI, and the OpenAI API key should also be provided as an environment variable.
 The project can be deployed on any platform that supports Python and provides a hosting environment for running long-polling applications.
 Usage:
 
-Set up the environment variables for the Telegram Bot API token and the OpenAI API key.
+- Set up the environment variables for the Telegram Bot API token and the OpenAI API key.
 Run the main.py script to start the bot.
 Start a conversation with the bot by sending the /start command.
 Type your questions or prompts, and the bot will provide AI-generated responses.
